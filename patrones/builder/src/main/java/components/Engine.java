@@ -1,5 +1,9 @@
 package components;
 
+/**
+ * El registro Engine representa el motor de un automóvil con su volumen y potencia.
+ * Es una representación inmutable y autocontenida de un motor.
+ */
 public record Engine(double volume, int power) {
 
 }

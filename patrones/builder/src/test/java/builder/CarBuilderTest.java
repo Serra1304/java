@@ -24,12 +24,12 @@ public class CarBuilderTest {
         int seats = 2;
         int wheels = 24;
 
-        builder.setCarType(cartype);
-        builder.setEngine(engine);
-        builder.setExtras(extras);
-        builder.setTransmission(transmission);
-        builder.setSeats(seats);
-        builder.setWheels(wheels);
+        builder.carType(cartype);
+        builder.engine(engine);
+        builder.extras(extras);
+        builder.transmission(transmission);
+        builder.seats(seats);
+        builder.wheels(wheels);
 
         Car car = builder.getCar();
 
